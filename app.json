@@ -1,1 +1,26 @@
-
+{
+  "name": "Youtube Upload Bot",
+  "description": "Telegram to YouTube Uploader Bot",
+  "repository": "https://github.com/odysseusmax/utube",
+  "logo": "https://github.com/odysseusmax/utube/blob/master/ss/logo.jpeg",
+  "keywords": ["telegram", "youtube", "uploader"],
+  "env": {
+      "BOT_TOKEN": {
+      "description": "Your Bot token. Get from https://t.me/botfather",
+      "value": ""
+      "required":false
+        
+    },
+    "SESSION_NAME": {
+      "description": "Your Bot's username.",
+      "value": "youtubeitbot",
+      "required":false
+    },
+    "API_ID": {
+      "description": "Your API_ID.  Refer project docs.",
+      "value": ""
+      "required":false
+      
+    },
+    
+}
